@@ -1,0 +1,117 @@
+.discount {
+  padding-top: 95px;
+  padding-bottom: 95px;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 768x) {
+  .discount {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+}
+.discount__bg-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+}
+.discount__bg-img img {
+  position: relative;
+  text-align: center;
+}
+.discount__bg-img img:hover {
+  transform: scale(1.1);
+}
+.discount__bg-img .container-right {
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  color: white;
+  padding-left: 300px;
+  padding-right: 100px;
+  overflow: hidden;
+}
+@media screen and (max-width: 991px) {
+  .discount__bg-img .container-right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .discount__bg-img .container-right {
+    margin-right: 5px;
+    margin-left: -102px;
+  }
+}
+.discount__bg-img .container-right .banner-content {
+  background-color: #003d29;
+  text-align: left;
+  padding-top: 85px;
+  padding-bottom: 110px;
+  padding-left: 74px;
+  padding-right: 74px;
+  display: inline-block;
+}
+@media screen and (max-width: 767px) {
+  .discount__bg-img .container-right .banner-content {
+    padding: 55px 44px;
+  }
+}
+.discount__bg-img .container-right .banner-content h2 {
+  margin-bottom: 12px;
+  font-size: 52px;
+}
+@media screen and (max-width: 767px) {
+  .discount__bg-img .container-right .banner-content h2 {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .discount__bg-img .container-right .banner-content h2 {
+    font-size: 38px;
+  }
+}
+.discount__bg-img .container-right .banner-content p {
+  max-width: 385px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  line-height: 145%;
+}
+@media screen and (max-width: 767px) {
+  .discount__bg-img .container-right .banner-content p {
+    margin-bottom: 25px;
+  }
+}
+.discount__bg-img .container-right .banner-content .learn-more-btn {
+  position: absolute;
+  margin-top: 20px;
+  height: 50px;
+  width: 160px;
+  background-color: #003d29;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+@media (max-width: 479px) {
+  .discount__bg-img .container-right .banner-content .learn-more-btn {
+    height: 44px;
+    width: 134px;
+    font-size: 12px;
+    margin-top: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .discount__bg-img .container-right .banner-content .learn-more-btn {
+    top: 80%;
+  }
+}
+.discount__bg-img .container-right .banner-content .learn-more-btn:hover {
+  transition: 0.8s linear;
+  background-color: #000;
+  border: #000;
+}/*# sourceMappingURL=discount.css.map */
