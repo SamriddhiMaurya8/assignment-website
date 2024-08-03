@@ -472,7 +472,7 @@
 }
 .top-deals-for-you__container .product-outer .swipper .single-item .bottom-section .button-section a .cart-btn:hover {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -505,7 +505,7 @@
   position: absolute;
   top: 12%;
   left: 30%;
-  color: white;
+  color: #ffffff;
   padding-left: 300px;
   padding-right: 100px;
   overflow: hidden;
@@ -567,7 +567,7 @@
   height: 50px;
   width: 160px;
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 100px;
   font-size: 14px;
@@ -607,6 +607,7 @@
   display: block;
 }
 .discount-banner__container {
+  margin-top: 30px;
   max-width: 1360px;
   padding-left: 40px;
   padding-bottom: 40px;
@@ -687,7 +688,7 @@
   height: 50px;
   width: 160px;
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 100px;
   margin-top: 35px;
@@ -762,6 +763,11 @@
 @media screen and (max-width: 991px) {
   .choose-brand__container .choose-brand-item {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 479px) {
+  .choose-brand__container .choose-brand-item {
+    grid-template-columns: 1fr;
   }
 }
 .choose-brand__container .choose-brand-item .single-item {
@@ -848,8 +854,6 @@
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
 }
 .shop-category-area__conatiner .container-category .single-item img {
   width: 100%;
@@ -887,6 +891,7 @@
   font-size: 12px;
   padding-left: 30px;
   padding-right: 30px;
+  margin-top: 70px;
 }
 @media screen and (max-width: 767px) {
   .best-selling {
@@ -1003,6 +1008,7 @@
   padding-right: 30px;
 }
 .trending-products__container {
+  margin-top: 30px;
   margin-top: 105px;
 }
 @media screen and (max-width: 767px) {
@@ -1106,7 +1112,7 @@
   font-size: 17px;
   font-weight: 600;
   line-height: 14px;
-  color: white;
+  color: #ffffff;
   border: 1px solid #231f1e;
   border-radius: 22px;
 }
@@ -1228,7 +1234,7 @@
 }
 @media (max-width: 631px) {
   .image-container__main-image .banner-title:nth-of-type(3) {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 42px;
     top: 50%;
   }
@@ -1256,7 +1262,7 @@
 }
 @media (max-width: 631px) {
   .image-container__main-image .banner-title:nth-of-type(4) {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 42px;
     top: 60%;
   }
@@ -1267,7 +1273,7 @@
   height: 50px;
   width: 160px;
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   border: none;
   border-radius: 100px;
   font-size: 14px;
@@ -1308,7 +1314,7 @@
   padding-right: 30px;
 }
 .services__container {
-  margin-top: 105px;
+  margin-top: 30px;
 }
 .services__container .container-heading h2 {
   margin-top: 20px;
@@ -1382,8 +1388,6 @@
 }
 .footer-area .container {
   max-width: 1360px;
-  padding-left: 40px;
-  padding-right: 40px;
   overflow: hidden;
 }
 @media screen and (max-width: 767px) {
@@ -1479,6 +1483,7 @@
 .footer-payment-wrap {
   display: flex;
   flex-direction: column;
+  margin-top: 57px;
 }
 @media screen and (max-width: 479px) {
   .footer-payment-wrap {
@@ -1501,7 +1506,7 @@
   grid-column-gap: 6px;
   grid-row-gap: 10.34px;
   flex-wrap: wrap;
-  grid-template-columns: repeat(auto-fill, minmax(58px, 1fr));
+  grid-template: ". Area" ". ."/58px 58px 58px 58px;
   grid-auto-columns: 1fr;
   display: grid;
 }
@@ -1518,7 +1523,6 @@
 
 .footer-nav {
   flex: 1;
-  margin-bottom: 30px;
 }
 
 .footer-menu-list {
@@ -1536,6 +1540,11 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 200%;
+}
+
+.list-item:hover {
+  color: #d87283;
+  cursor: pointer;
 }
 
 .copyright-content {
@@ -1650,11 +1659,7 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-.todays-deals__container {
-  margin-top: 105px;
-}
 .todays-deals__container .container-heading h2 {
-  margin-top: 20px;
   margin-bottom: 10px;
   font-family: Eina02, sans-serif;
   font-size: 28px;
@@ -1687,7 +1692,7 @@
 }
 .todays-deals__container .product-tabs__menu .product-links:nth-child(8) {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
 }
 .todays-deals__container .product-tabs .product-content__container .product-item {
   display: grid;
@@ -1829,7 +1834,7 @@
 }
 .todays-deals__container .product-tabs .product-content .single-item .bottom-section .button-section a .cart-btn:hover {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -1986,6 +1991,7 @@
 .navbar2__right-side .account,
 .navbar2__right-side .cart {
   display: flex;
+  cursor: pointer;
   gap: 7px;
 }
 
@@ -2049,7 +2055,7 @@
     top: 82px;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
     gap: 20px;
   }
@@ -2106,7 +2112,7 @@
 }
 .todays-deals__container .product-tabs__menu .product-links:nth-child(8) {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
 }
 .todays-deals__container .product-tabs .product-content__container .product-item {
   display: grid;
@@ -2248,6 +2254,6 @@
 }
 .todays-deals__container .product-tabs .product-content .single-item .bottom-section .button-section a .cart-btn:hover {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }

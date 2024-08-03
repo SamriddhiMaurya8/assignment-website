@@ -4,8 +4,6 @@
 }
 .footer-area .container {
   max-width: 1360px;
-  padding-left: 40px;
-  padding-right: 40px;
   overflow: hidden;
 }
 @media screen and (max-width: 767px) {
@@ -101,6 +99,7 @@
 .footer-payment-wrap {
   display: flex;
   flex-direction: column;
+  margin-top: 57px;
 }
 @media screen and (max-width: 479px) {
   .footer-payment-wrap {
@@ -123,7 +122,7 @@
   grid-column-gap: 6px;
   grid-row-gap: 10.34px;
   flex-wrap: wrap;
-  grid-template-columns: repeat(auto-fill, minmax(58px, 1fr));
+  grid-template: ". Area" ". ."/58px 58px 58px 58px;
   grid-auto-columns: 1fr;
   display: grid;
 }
@@ -140,7 +139,6 @@
 
 .footer-nav {
   flex: 1;
-  margin-bottom: 30px;
 }
 
 .footer-menu-list {
@@ -158,6 +156,11 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 200%;
+}
+
+.list-item:hover {
+  color: #d87283;
+  cursor: pointer;
 }
 
 .copyright-content {

@@ -14,6 +14,7 @@
   line-height: 100%;
 }
 .get-discount__container .get-discount-items {
+  margin-top: 36px;
   grid-column-gap: 23px;
   grid-row-gap: 16px;
   flex-wrap: nowrap;

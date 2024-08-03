@@ -98,6 +98,18 @@
   align-items: center;
   margin: 0;
 }
+.navbar2__list .navbar2__search-bar {
+  position: relative;
+  display: inline-block;
+}
+.navbar2__list .navbar2__search-bar .fa-magnifying-glass {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  /* Allows clicks to pass through the icon */
+}
 
 .navbar2__list ul {
   display: flex;
@@ -151,6 +163,7 @@
 .navbar2__right-side .account,
 .navbar2__right-side .cart {
   display: flex;
+  cursor: pointer;
   gap: 7px;
 }
 
@@ -214,7 +227,7 @@
     top: 82px;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: #ffffff;
     padding: 20px;
     gap: 20px;
   }

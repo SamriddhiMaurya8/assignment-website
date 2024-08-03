@@ -1,3 +1,5 @@
+
+@import "_variables";
 .get-discount {
   padding-left: 20px;
   padding-right: 20px;
@@ -16,6 +18,7 @@
     }
 
     .get-discount-items {
+      margin-top:36px;
       @media screen and (max-width: 991px) {
         grid-template-columns: 1fr 1fr;
       }
@@ -51,7 +54,7 @@
           }
 
           .discount-price {
-            color: #cb9917;
+            color: $color10;
             font-family: Eina04, sans-serif;
             font-size: 52px;
             font-weight: 700;
@@ -62,7 +65,7 @@
               line-height: 41px;
               position: relative;
               top: -16px;
-              color: #cb9917;
+              color: $color10;
 
               @media screen and (max-width: 767px) {
                 .text-span-2 {
@@ -76,7 +79,7 @@
 
           .discount-paragraph {
             max-width: 385px;
-            color: #231f1e;
+            color: $color2;
             margin-bottom: 0;
             font-size: 16px;
             font-weight: 500;
@@ -115,7 +118,7 @@
       //single-item-2
       .single-item {
         z-index: 0;
-        background-color: #f9dcdc;
+        background-color: $color8;
         border-radius: 10px;
         flex: none;
         justify-content: center;
@@ -160,7 +163,7 @@
 
           .discount-paragraph {
             max-width: 385px;
-            color: #231f1e;
+            color: $color2;
             margin-bottom: 0;
             font-size: 16px;
             font-weight: 500;
@@ -237,7 +240,7 @@
 
           .discount-paragraph {
             max-width: 385px;
-            color: #231f1e;
+            color: $color2;
             margin-bottom: 0;
             font-size: 16px;
             font-weight: 500;
@@ -288,7 +291,7 @@
           }
 
           .discount-price {
-            color: #003d29;
+            color: $color3;
             font-family: Eina04, sans-serif;
             font-size: 52px;
             font-weight: 700;
@@ -300,7 +303,7 @@
               line-height: 41px;
               position: relative;
               top: -16px;
-              color: #003d29;
+              color: $color3;
 
               @media screen and (max-width: 767px) {
                 .text-span-2 {
@@ -314,7 +317,7 @@
 
           .discount-paragraph {
             max-width: 385px;
-            color: #231f1e;
+            color: $color2;
             margin-bottom: 0;
             font-size: 16px;
             font-weight: 500;

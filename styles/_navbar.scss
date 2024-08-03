@@ -1,7 +1,7 @@
 
-  
+@import "_variables";
   .top-navbar {
-    background-color: #003d29;
+    background-color: $color3;
     color: #fff;
     font-size: 12px;
     display: flex;
@@ -12,8 +12,7 @@
     // width: 94%;
     font-family: Inter, sans-serif;
   
-    @media (max-width: 768px) {
-  
+    @media (max-width: 768px) { 
       flex-wrap: nowrap;
       height: 7vh;
       display: flex;
@@ -69,6 +68,7 @@
           a {
             color: #fff;
             text-decoration: none;
+           
   
             @media (max-width: 479px) {
               font-size: 12px;
@@ -86,99 +86,7 @@
     }
   }
   
-  // .right {
-  //     display: flex;
-  //     padding-right: 40px;
-  //     gap: 16%;
-  // }
   
-  // .navbar2 {
-  //   padding-right: 30px;
-  //   padding-left: 30px;
-  //   height: 82px;
-  
-  //   display: flex;
-  
-  
-  //   .img {
-  //     img {
-  //       padding-top: 19px;
-  //       width: 175px;
-  //       height: 44px;
-  //     }
-  //   }
-  
-  //   &__list {
-  //     display: flex;
-  //     margin-bottom: 80px;
-  
-  //     ul {
-  //       // padding-left: 15px;
-  //       padding-top: 35px;
-  //       display: flex;
-  //       list-style: none;
-  //       // gap: 8px;
-  //       align-items: center;
-  //       // justify-content: space-between;
-  //       // margin-bottom: 0;
-  
-  //       li {
-  //         // padding-right: 15px;
-  //         padding-top: 15px;
-  //         list-style-type: none;
-  //         letter-spacing: 0.25px;
-  
-  //         a {
-  //           padding-left: 18px;
-  //           text-decoration: none;
-  //           color: #333;
-  //           font-size: 16px;
-  //           font-weight: 500;
-  //           color: #333;
-  //           //    padding: 5px 10px;
-  //           line-height: 20px;
-  //           //    margin-right: 5px;
-  //           //    margin-left: 5px;
-  //         }
-  //       }
-  //     }
-  //   }
-  
-  //   &__search-bar {
-  //     // padding-left: 70px;
-  //     margin-left: 10%;
-  
-  //     input {
-  //       padding-left: 50px;
-  //       width: 280px;
-  //       margin-top: 21px;
-  //       height: 40px;
-  //       max-width: 320px;
-  //       background-color: #f6f7f8;
-  //       border-radius: 100px;
-  //       margin-bottom: 0;
-  //       // position: relative;
-  //     }
-  //   }
-  
-  //   &__right-side {
-  //     // padding-right: 40px;
-  //     margin-left: 30px;
-  //     display: flex;
-  //     gap: 30px;
-  //     margin-top: 34px;
-  
-  //     .account {
-  //       display: flex;
-  //       gap: 16px;
-  //     }
-  
-  //     .cart {
-  //       display: flex;
-  //       gap: 16px;
-  //     }
-  //   }
-  // }
   
   
   
@@ -205,6 +113,23 @@
     align-items: center;
     margin: 0;
     // gap: 80px; //change 2
+
+
+    .navbar2__search-bar{
+      position: relative;
+      display: inline-block;
+    }
+        .navbar2__search-bar .fa-magnifying-glass {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          pointer-events: none; /* Allows clicks to pass through the icon */
+          
+      }
+
+
+
   }
   
   .navbar2__list ul {
@@ -227,9 +152,8 @@
   .navbar2__list a {
     padding-left: 18px;
     text-decoration: none;
-    color: #333;
+    color: $color4;
     font-size: 17px;
-  
     font-weight: 500;
     line-height: 20px;
   }
@@ -247,7 +171,7 @@
     max-width: 320px;
     background-color: #f6f7f8;
     border-radius: 100px;
-    border:1px solid #231f1e;
+    border:1px solid $color2;
     margin: 0;
     // margin-right: 7px;
   }
@@ -262,6 +186,7 @@
   .navbar2__right-side .account,
   .navbar2__right-side .cart {
     display: flex;
+    cursor: pointer;
     gap: 7px;
   }
   .hamburger {
@@ -269,6 +194,7 @@
     background: none;
     border: none;
     font-size: 24px;
+    
     cursor: pointer;
   }
   
@@ -328,7 +254,7 @@
       top: 82px;
       left: 0;
       right: 0;
-      background-color: white; 
+      background-color: $color9; 
       padding: 20px;
       gap: 20px; 
     }

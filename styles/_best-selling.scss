@@ -1,4 +1,4 @@
-
+@import "_variables";
 // best-seeling 
 .best-selling{
     padding-bottom: 70px;
@@ -39,6 +39,7 @@
     
     }
     .best-selling-items{
+      margin-top:36px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr; 
       grid-auto-columns: 1fr;

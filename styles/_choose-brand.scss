@@ -1,3 +1,5 @@
+@import "_variables";
+
 .choose-brand {
   padding-left: 20px;
   padding-right: 20px;
@@ -10,6 +12,7 @@
     
     margin-top: 105px;
     .container-heading {
+      
       h2{
         margin-top: 20px;
         margin-bottom: 10px;
@@ -21,6 +24,7 @@
     }
 
     .choose-brand-item {
+      margin-top:36px;
       grid-column-gap: 23px;
       grid-row-gap: 16px;
       flex-wrap: nowrap;
@@ -33,7 +37,9 @@
         grid-template-columns: 1fr 1fr;
       }
     
-    
+      @media screen and (max-width: 479px) {
+        grid-template-columns: 1fr ;
+      }
 
       .single-item {
         z-index: 0;
@@ -61,7 +67,7 @@
         .choose-brand-content {
           .brand-title {
            
-            color: #231f1e;
+            color: $color2;
             margin-top: 0;
             margin-bottom: 13px;
             font-family: Inter, sans-serif;

@@ -20,6 +20,7 @@
   line-height: 100%;
 }
 .choose-brand__container .choose-brand-item {
+  margin-top: 36px;
   grid-column-gap: 23px;
   grid-row-gap: 16px;
   flex-wrap: nowrap;
@@ -31,6 +32,11 @@
 @media screen and (max-width: 991px) {
   .choose-brand__container .choose-brand-item {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 479px) {
+  .choose-brand__container .choose-brand-item {
+    grid-template-columns: 1fr;
   }
 }
 .choose-brand__container .choose-brand-item .single-item {

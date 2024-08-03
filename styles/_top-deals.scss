@@ -1,3 +1,4 @@
+@import "_variables";
 .top-deals-for-you {
   padding-left: 30px;
   padding-right: 30px;
@@ -16,6 +17,7 @@
     }
 
     .product-outer {
+      margin-top:36px;
       overflow-x: auto;
       padding-bottom: 50px;
 
@@ -25,7 +27,7 @@
       }
 
       &::-webkit-scrollbar-thumb {
-        background-color: #888;
+        background-color: $color7;
         border-radius: 3px;
       }
 
@@ -62,7 +64,7 @@
           margin-right: 24px;
 
           .product-img {
-            background-color: #f5f6f6;
+            background-color:$color6;
             text-align: center;
             border-radius: 10px;
             position: relative;
@@ -81,7 +83,7 @@
             .product-wishlist {
               width: 40px;
               height: 40px;
-              background-color: #ffffff;
+              background-color: $color9;
               border-radius: 100px;
               justify-content: center;
               align-items: center;
@@ -102,7 +104,7 @@
             }
 
             .product-wishlist:hover {
-              background-color: #f9dcdc;
+              background-color: $color8;
             }
           }
 
@@ -177,16 +179,16 @@
                 .cart-btn {
                   height: 40px;
                   width: 120px;
-                  background-color: #ffffff;
+                  background-color: $color9;
                   font-family: 14px;
                   line-height: 14px;
-                  color: #231f1e;
-                  border: 1px solid #231f1e;
+                  color: $color2;
+                  border: 1px solid $color2;
                   border-radius: 22px;
                 }
                 .cart-btn:hover{
-                  background-color: #003d29;
-                  color: white;
+                  background-color: $color3;
+                  color: $color9;
                   cursor: pointer;
                 }
               }

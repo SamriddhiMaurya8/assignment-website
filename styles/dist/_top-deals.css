@@ -14,6 +14,7 @@
   line-height: 100%;
 }
 .top-deals-for-you__container .product-outer {
+  margin-top: 36px;
   overflow-x: auto;
   padding-bottom: 50px;
 }
@@ -162,6 +163,6 @@
 }
 .top-deals-for-you__container .product-outer .swipper .single-item .bottom-section .button-section a .cart-btn:hover {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }

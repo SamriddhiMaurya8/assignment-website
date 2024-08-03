@@ -1,3 +1,5 @@
+
+@import "_variables";
 .discount {
   padding-top: 95px;
   padding-bottom: 95px;
@@ -28,7 +30,7 @@
       position: absolute;
       top: 12%;
       left: 30%;
-      color: white;
+      color: $color9;
       // max-width: 1360px;
       padding-left: 300px;
       padding-right: 100px;
@@ -45,7 +47,7 @@
       }
 
       .banner-content {
-        background-color: #003d29;
+        background-color: $color3;
         text-align: left;
         // padding: 110px 74px;
         padding-top: 85px;
@@ -89,23 +91,19 @@
 
           height: 50px;
           width: 160px;
-          background-color: #003d29;
-          color: white;
+          background-color: $color3;
+          color: $color9;
           border: none;
           border-radius: 100px;
           font-size: 14px;
-          border: 1px solid #ffffff;
+          border: 1px solid $color9;
           cursor: pointer;
-          // top: 75%;
           text-transform: uppercase;
 
           @media (max-width: 479px) {
-            // top: 64%;
-            // left: 8%;
             height: 44px;
             width: 134px;
             font-size: 12px;
-            // padding: 14px 30px;
             margin-top: 18px;
           }
 

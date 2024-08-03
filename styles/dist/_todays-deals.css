@@ -35,7 +35,7 @@
 }
 .todays-deals__container .product-tabs__menu .product-links:nth-child(8) {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
 }
 .todays-deals__container .product-tabs .product-content__container .product-item {
   display: grid;
@@ -177,6 +177,6 @@
 }
 .todays-deals__container .product-tabs .product-content .single-item .bottom-section .button-section a .cart-btn:hover {
   background-color: #003d29;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
 }

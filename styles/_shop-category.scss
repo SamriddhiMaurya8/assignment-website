@@ -1,3 +1,4 @@
+@import "_variables";
 .shop-category-area {
   padding-left: 30px;
   padding-right: 30px;
@@ -19,6 +20,7 @@
       // display: flex;
       // gap: 20px;
       // padding: 0 40px;
+      margin-top:36px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: auto;
@@ -50,15 +52,12 @@
         border-radius: 8px;
         overflow: hidden;
         position: relative;
-        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-          rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-        transform-style: preserve-3d;
+       
 
         img {
           width: 100%;
           height: auto;
-          // transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-          // transform-style: preserve-3d;
+        
 
           border-radius: 8px;
 
@@ -76,7 +75,7 @@
           top: 15%;
           left: 70%;
           transform: translate(-50%, -50%);
-          color: #ffffff;
+          color: $color9;
           width: 100%;
           font-size: 24px;
           font-weight: 600;
