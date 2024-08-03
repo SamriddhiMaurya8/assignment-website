@@ -46,6 +46,11 @@
         line-height: 42px;
         top: 22%;
       }
+      @media (max-width: 631px) {
+        font-size: 36px;
+        line-height: 42px;
+       top:27%
+      }
     }
 
     .banner-title:nth-of-type(2) {
@@ -62,6 +67,12 @@
         font-size: 36px;
         line-height: 42px;
         top: 32%;
+      }
+      @media (max-width: 631px) {
+        font-size: 36px;
+        line-height: 42px;
+        // margin-top: 12px;
+        top:38%;
       }
     }
 
@@ -86,6 +97,12 @@
       font-size: 15px;
         padding-top: 2px;
       }
+      @media (max-width: 631px) {
+        font-size: 20px;
+        line-height: 42px;
+        // margin-top: 12px;
+        top:50%;
+      }
     }
 
     .banner-title:nth-of-type(4) {
@@ -105,6 +122,12 @@
       @media (max-width: 390px) {
       font-size: 15px;
         padding-top: 8px;
+      }
+      @media (max-width: 631px) {
+        font-size: 20px;
+        line-height: 42px;
+        // margin-top: 12px;
+        top:60%;
       }
     }
 
@@ -137,6 +160,10 @@
       @media (max-width: 390px) {
       
         top:63%;
+      }
+      @media (max-width: 631px) {
+       
+        top:74%;
       }
     }
 
