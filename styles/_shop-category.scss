@@ -1,89 +1,88 @@
 .shop-category-area {
-    &__conatiner {
-      padding: 20px;
-  
-      .container-heading {
-        text-transform: capitalize;
-        margin-bottom: 20px;
-        margin-top: 5%;
-        // padding-left: 30px;
-      }
-  
-      .container-category {
-        // display: flex;
-        // gap: 20px;
-        // padding: 0 40px;
+  &__conatiner {
+    padding: 20px;
+
+    .container-heading {
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      margin-top: 5%;
+      // padding-left: 30px;
+    }
+
+    .container-category {
+      // display: flex;
+      // gap: 20px;
+      // padding: 0 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: auto;
+      grid-row-gap: 16px;
+      grid-column-gap: 23px;
+      grid-auto-columns: 1fr;
+
+      @media screen and (max-width: 479px) {
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        grid-template-columns: 1fr 1fr;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        grid-row-gap: 16px;
-        grid-column-gap: 23px;
-        grid-auto-columns: 1fr;
-  
-        @media screen and (max-width: 479px) {
-          grid-column-gap: 10px;
-          grid-row-gap: 10px;
-          grid-template-columns: 1fr 1fr;
-          display: grid;
-        }
-  
-        @media screen and (max-width: 767px) {
-          grid-template-columns: 1fr 1fr;
-        }
-  
-        @media screen and (max-width: 991px) {
-          grid-template-columns: 1fr 1fr;
-        }
-  
-        .single-item {
-          // flex: 1;
-          cursor: pointer;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+      }
+
+      @media screen and (max-width: 767px) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      @media screen and (max-width: 991px) {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .single-item {
+        // flex: 1;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+          rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
+
+        img {
+          width: 100%;
+          height: auto;
+          // transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+          // transform-style: preserve-3d;
+
           border-radius: 8px;
-          overflow: hidden;
-          position: relative;
-          transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-            rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-          transform-style: preserve-3d;
-  
-          img {
+
+          @media (max-width: 991px) {
             width: 100%;
-            height: auto;
-            // transform: translate3d(0px, 0px, 0px) scale3d(1.2, 1.2, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-            // transform-style: preserve-3d;
-  
-            border-radius: 8px;
-  
-            @media (max-width: 991px) {
-              width: 100%;
-            }
           }
-  
-          img:hover {
-            transform: scale(1.1);
-          }
-  
-          .top {
-            position: absolute;
-            top: 15%;
-            left: 70%;
-            transform: translate(-50%, -50%);
-            color: #ffffff;
-            width: 100%;
-            font-size: 24px;
-            font-weight: 600;
-  
-            @media (max-width: 479px) {
-              text-align: center;
-              // padding-left: 20px;
-              font-size: 22px;
-              padding-right: 50px;
-            }
+        }
+
+        img:hover {
+          transform: scale(1.1);
+        }
+
+        .top {
+          position: absolute;
+          top: 15%;
+          left: 70%;
+          transform: translate(-50%, -50%);
+          color: #ffffff;
+          width: 100%;
+          font-size: 24px;
+          font-weight: 600;
+
+          @media (max-width: 479px) {
+            text-align: center;
+            // padding-left: 20px;
+            font-size: 22px;
+            padding-right: 50px;
           }
         }
       }
     }
   }
-  
+}

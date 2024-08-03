@@ -42,8 +42,6 @@
 }
 .top-deals-for-you__container .product-outer .swipper .single-item {
   width: 410.667px;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
   margin-right: 24px;
 }
 .top-deals-for-you__container .product-outer .swipper .single-item .product-img {
