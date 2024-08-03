@@ -108,7 +108,6 @@
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  /* Allows clicks to pass through the icon */
 }
 
 .navbar2__list ul {

@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 479px) {
   .footer-area .container .footer-top .footer-columns {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .footer-area .container .footer-top .footer-columns .footer-about-us {
@@ -59,12 +59,6 @@
     grid-column: span 2;
   }
 }
-@media screen and (max-width: 479px) {
-  .footer-area .container .footer-top .footer-columns .footer-about-us {
-    grid-column: span 1;
-  }
-}
-
 .footer-logo {
   height: 100%;
   grid-column-gap: 16px;
@@ -89,6 +83,7 @@
   text-transform: none;
   font-size: 14px;
   line-height: 150%;
+  order: -1;
 }
 @media screen and (max-width: 767px) {
   .footer-paragraph {
@@ -101,12 +96,6 @@
   flex-direction: column;
   margin-top: 57px;
 }
-@media screen and (max-width: 479px) {
-  .footer-payment-wrap {
-    display: none;
-  }
-}
-
 .footer-menu-title {
   color: #000;
   text-transform: capitalize;

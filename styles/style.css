@@ -477,10 +477,12 @@
   color: #ffffff;
   cursor: pointer;
 }
+.top-deals-for-you__container .product-outer .swipper .single-item:hover {
+  cursor: url("./images/Drag__4_-removebg-preview (2).png");
+}
 
 .discount {
   padding-top: 95px;
-  padding-bottom: 95px;
   position: relative;
   overflow: hidden;
 }
@@ -1439,7 +1441,7 @@
 }
 @media screen and (max-width: 479px) {
   .footer-area .container .footer-top .footer-columns {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .footer-area .container .footer-top .footer-columns .footer-about-us {
@@ -1450,12 +1452,6 @@
     grid-column: span 2;
   }
 }
-@media screen and (max-width: 479px) {
-  .footer-area .container .footer-top .footer-columns .footer-about-us {
-    grid-column: span 1;
-  }
-}
-
 .footer-logo {
   height: 100%;
   grid-column-gap: 16px;
@@ -1480,6 +1476,7 @@
   text-transform: none;
   font-size: 14px;
   line-height: 150%;
+  order: -1;
 }
 @media screen and (max-width: 767px) {
   .footer-paragraph {
@@ -1492,12 +1489,6 @@
   flex-direction: column;
   margin-top: 57px;
 }
-@media screen and (max-width: 479px) {
-  .footer-payment-wrap {
-    display: none;
-  }
-}
-
 .footer-menu-title {
   color: #000;
   text-transform: capitalize;
@@ -1954,7 +1945,7 @@
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
-  pointer-events: none; /* Allows clicks to pass through the icon */
+  pointer-events: none;
 }
 
 .navbar2__list ul {

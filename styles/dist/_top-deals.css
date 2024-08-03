@@ -166,3 +166,6 @@
   color: #ffffff;
   cursor: pointer;
 }
+.top-deals-for-you__container .product-outer .swipper .single-item:hover {
+  cursor: url("./images/Drag__4_-removebg-preview (2).png");
+}

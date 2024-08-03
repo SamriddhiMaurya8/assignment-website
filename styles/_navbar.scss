@@ -112,8 +112,6 @@
     display: flex;
     align-items: center;
     margin: 0;
-    // gap: 80px; //change 2
-
 
     .navbar2__search-bar{
       position: relative;
@@ -124,12 +122,13 @@
           right: 10px;
           top: 50%;
           transform: translateY(-50%);
-          pointer-events: none; /* Allows clicks to pass through the icon */
+          // vertical-align:auto;
+          pointer-events: none;
+          
           
       }
-
-
-
+  
+    
   }
   
   .navbar2__list ul {
