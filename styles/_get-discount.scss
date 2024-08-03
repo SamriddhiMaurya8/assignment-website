@@ -3,10 +3,16 @@
   padding-right: 20px;
 
   &__container {
+    margin-top: 105px;
     .container-heading {
-      text-transform: capitalize;
-      margin-bottom: 20px;
-      margin-top: 5%;
+      h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Eina02 ,  sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 100%;
+      }
     }
 
     .get-discount-items {

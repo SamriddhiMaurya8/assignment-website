@@ -26,7 +26,6 @@
   position: absolute;
   left: 30px;
   top: 58%;
-  transform: translateY(-50%);
   color: #003d29;
   font-size: 2em;
   text-align: left;
@@ -76,7 +75,19 @@
 }
 @media (max-width: 479px) {
   .image-container__main-image .banner-title:nth-of-type(3) {
-    top: 45%;
+    top: 43%;
+    font-size: 17px;
+  }
+}
+@media (max-width: 991px) {
+  .image-container__main-image .banner-title:nth-of-type(3) {
+    padding-top: 12px;
+  }
+}
+@media (max-width: 390px) {
+  .image-container__main-image .banner-title:nth-of-type(3) {
+    font-size: 15px;
+    padding-top: 2px;
   }
 }
 .image-container__main-image .banner-title:nth-of-type(4) {
@@ -90,7 +101,14 @@
 }
 @media (max-width: 479px) {
   .image-container__main-image .banner-title:nth-of-type(4) {
-    top: 50%;
+    top: 53%;
+    font-size: 17px;
+  }
+}
+@media (max-width: 390px) {
+  .image-container__main-image .banner-title:nth-of-type(4) {
+    font-size: 15px;
+    padding-top: 8px;
   }
 }
 .image-container__main-image .learn-more-btn {
@@ -109,7 +127,7 @@
 }
 @media (max-width: 479px) {
   .image-container__main-image .learn-more-btn {
-    top: 64%;
+    top: 63%;
     left: 8%;
     height: 44px;
     width: 134px;
@@ -118,7 +136,12 @@
 }
 @media (max-width: 991px) {
   .image-container__main-image .learn-more-btn {
-    top: 64%;
+    top: 80%;
+  }
+}
+@media (max-width: 390px) {
+  .image-container__main-image .learn-more-btn {
+    top: 63%;
   }
 }
 .image-container__main-image .learn-more-btn:hover {

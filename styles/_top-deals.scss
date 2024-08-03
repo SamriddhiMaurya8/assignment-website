@@ -3,10 +3,16 @@
   padding-right: 30px;
 
   &__container {
+    margin-top: 105px;
     .container-heading {
-      text-transform: capitalize;
-      margin-bottom: 20px;
-      margin-top: 5%;
+      h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Eina02 ,  sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 100%;
+      }
     }
 
     .product-outer {
@@ -177,6 +183,11 @@
                   color: #231f1e;
                   border: 1px solid #231f1e;
                   border-radius: 22px;
+                }
+                .cart-btn:hover{
+                  background-color: #003d29;
+                  color: white;
+                  cursor: pointer;
                 }
               }
             }

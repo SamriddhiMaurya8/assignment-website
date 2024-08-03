@@ -1,12 +1,23 @@
 .choose-brand {
   padding-left: 20px;
   padding-right: 20px;
+  @media screen and (max-width: 390px) {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 
   &__container {
+    
+    margin-top: 105px;
     .container-heading {
-      text-transform: capitalize;
-      margin-bottom: 20px;
-      margin-top: 5%;
+      h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Eina02 ,  sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 100%;
+      }
     }
 
     .choose-brand-item {
@@ -21,6 +32,8 @@
       @media screen and (max-width: 991px) {
         grid-template-columns: 1fr 1fr;
       }
+    
+    
 
       .single-item {
         z-index: 0;
@@ -42,14 +55,13 @@
 
           .deal-img {
             border-radius: 10px;
-            transition: all 0.2s;
           }
         }
 
         .choose-brand-content {
-          .banner-title {
-            z-index: 1;
-            color: var(--heading-color);
+          .brand-title {
+           
+            color: #231f1e;
             margin-top: 0;
             margin-bottom: 13px;
             font-family: Inter, sans-serif;
@@ -59,9 +71,9 @@
 
           .delivery-time {
             margin-bottom: 0;
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 500;
-            line-height: 13px;
+            line-height: 14px;
           }
         }
       }

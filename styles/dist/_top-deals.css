@@ -2,10 +2,16 @@
   padding-left: 30px;
   padding-right: 30px;
 }
-.top-deals-for-you__container .container-heading {
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  margin-top: 5%;
+.top-deals-for-you__container {
+  margin-top: 105px;
+}
+.top-deals-for-you__container .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .top-deals-for-you__container .product-outer {
   overflow-x: auto;
@@ -153,4 +159,9 @@
   color: #231f1e;
   border: 1px solid #231f1e;
   border-radius: 22px;
+}
+.top-deals-for-you__container .product-outer .swipper .single-item .bottom-section .button-section a .cart-btn:hover {
+  background-color: #003d29;
+  color: white;
+  cursor: pointer;
 }

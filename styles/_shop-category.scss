@@ -1,12 +1,18 @@
 .shop-category-area {
+  padding-left: 30px;
+  padding-right: 30px;
   &__conatiner {
-    padding: 20px;
-
+     margin-top: 105px;
     .container-heading {
-      text-transform: capitalize;
-      margin-bottom: 20px;
-      margin-top: 5%;
-      // padding-left: 30px;
+      h2{
+
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Eina02 ,  sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 100%;
+      }
     }
 
     .container-category {

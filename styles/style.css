@@ -2,10 +2,16 @@
   padding-left: 30px;
   padding-right: 30px;
 }
-.top-deals-for-you__container .container-heading {
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  margin-top: 5%;
+.top-deals-for-you__container {
+  margin-top: 105px;
+}
+.top-deals-for-you__container .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .top-deals-for-you__container .product-outer {
   overflow-x: auto;
@@ -154,15 +160,26 @@
   border: 1px solid #231f1e;
   border-radius: 22px;
 }
+.top-deals-for-you__container .product-outer .swipper .single-item .bottom-section .button-section a .cart-btn:hover {
+  background-color: #003d29;
+  color: white;
+  cursor: pointer;
+}
 
 .get-discount {
   padding-left: 20px;
   padding-right: 20px;
 }
-.get-discount__container .container-heading {
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  margin-top: 5%;
+.get-discount__container {
+  margin-top: 105px;
+}
+.get-discount__container .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .get-discount__container .get-discount-items {
   grid-column-gap: 23px;
@@ -581,10 +598,22 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-.choose-brand__container .container-heading {
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  margin-top: 5%;
+@media screen and (max-width: 390px) {
+  .choose-brand {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+.choose-brand__container {
+  margin-top: 105px;
+}
+.choose-brand__container .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .choose-brand__container .choose-brand-item {
   grid-column-gap: 23px;
@@ -619,11 +648,9 @@
 }
 .choose-brand__container .choose-brand-item .single-item .thumbnail .deal-img {
   border-radius: 10px;
-  transition: all 0.2s;
 }
-.choose-brand__container .choose-brand-item .single-item .choose-brand-content .banner-title {
-  z-index: 1;
-  color: var(--heading-color);
+.choose-brand__container .choose-brand-item .single-item .choose-brand-content .brand-title {
+  color: #231f1e;
   margin-top: 0;
   margin-bottom: 13px;
   font-family: Inter, sans-serif;
@@ -632,18 +659,25 @@
 }
 .choose-brand__container .choose-brand-item .single-item .choose-brand-content .delivery-time {
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 13px;
+  line-height: 14px;
 }
 
-.shop-category-area__conatiner {
-  padding: 20px;
+.shop-category-area {
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.shop-category-area__conatiner .container-heading {
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  margin-top: 5%;
+.shop-category-area__conatiner {
+  margin-top: 105px;
+}
+.shop-category-area__conatiner .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .shop-category-area__conatiner .container-category {
   display: grid;
@@ -742,7 +776,6 @@
   position: absolute;
   left: 30px;
   top: 58%;
-  transform: translateY(-50%);
   color: #003d29;
   font-size: 2em;
   text-align: left;
@@ -792,7 +825,19 @@
 }
 @media (max-width: 479px) {
   .image-container__main-image .banner-title:nth-of-type(3) {
-    top: 45%;
+    top: 43%;
+    font-size: 17px;
+  }
+}
+@media (max-width: 991px) {
+  .image-container__main-image .banner-title:nth-of-type(3) {
+    padding-top: 12px;
+  }
+}
+@media (max-width: 390px) {
+  .image-container__main-image .banner-title:nth-of-type(3) {
+    font-size: 15px;
+    padding-top: 2px;
   }
 }
 .image-container__main-image .banner-title:nth-of-type(4) {
@@ -806,7 +851,14 @@
 }
 @media (max-width: 479px) {
   .image-container__main-image .banner-title:nth-of-type(4) {
-    top: 50%;
+    top: 53%;
+    font-size: 17px;
+  }
+}
+@media (max-width: 390px) {
+  .image-container__main-image .banner-title:nth-of-type(4) {
+    font-size: 15px;
+    padding-top: 8px;
   }
 }
 .image-container__main-image .learn-more-btn {
@@ -825,7 +877,7 @@
 }
 @media (max-width: 479px) {
   .image-container__main-image .learn-more-btn {
-    top: 64%;
+    top: 63%;
     left: 8%;
     height: 44px;
     width: 134px;
@@ -834,7 +886,12 @@
 }
 @media (max-width: 991px) {
   .image-container__main-image .learn-more-btn {
-    top: 64%;
+    top: 80%;
+  }
+}
+@media (max-width: 390px) {
+  .image-container__main-image .learn-more-btn {
+    top: 63%;
   }
 }
 .image-container__main-image .learn-more-btn:hover {
@@ -1050,8 +1107,16 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-.todays-deals__container .container-heading {
-  text-transform: capitalize;
+.todays-deals__container {
+  margin-top: 105px;
+}
+.todays-deals__container .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .todays-deals__container .product-tabs__menu {
   display: flex;
@@ -1213,10 +1278,100 @@
   border: 1px solid #231f1e;
   border-radius: 22px;
 }
+.todays-deals__container .product-tabs .product-content .single-item .bottom-section .button-section a .cart-btn:hover {
+  background-color: #003d29;
+  color: white;
+  cursor: pointer;
+}
+
+.discount-banner {
+  background-color: #ffe6cc;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 105px;
+  display: block;
+}
+.discount-banner__container {
+  width: 100%;
+  max-width: 1360px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+}
+.discount-banner__container .container-1 {
+  text-align: left;
+  padding: 90px 120px 40px;
+  justify-content: space-between;
+  display: flex;
+}
+.discount-banner__container .container-1 .inner-content .title {
+  max-width: 381px;
+  margin-top: 0;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.discount-banner__container .container-1 .inner-content .para {
+  max-width: 385px;
+  margin-bottom: 30px;
+  color: #231f1e;
+  margin-bottom: 10px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  line-height: 145%;
+}
+.discount-banner__container .container-1 .inner-content .learn-more-btn {
+  position: absolute;
+  height: 50px;
+  width: 160px;
+  background-color: #003d29;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.discount-banner__container .container-1 .inner-content .learn-more-btn:hover {
+  background-color: #333;
+}
+.discount-banner__container .right-side {
+  z-index: 0;
+  margin-top: 40px;
+  position: relative;
+}
+.discount-banner__container .right-side .card-one {
+  z-index: 2;
+  position: absolute;
+  top: -37px;
+  bottom: auto;
+  left: -22px;
+  right: auto;
+  transform: rotate(-30.6deg);
+}
+.discount-banner__container .right-side .card-two {
+  z-index: 1;
+  position: absolute;
+  top: -18px;
+  bottom: auto;
+  left: -6px;
+  right: auto;
+  transform: rotate(-21.6deg);
+}
+.discount-banner__container .right-side .card-three {
+  transform: rotate(-15deg);
+}
 
 .trending-products {
   padding-left: 30px;
   padding-right: 30px;
+}
+.trending-products__container {
+  margin-top: 105px;
 }
 @media screen and (max-width: 767px) {
   .trending-products__container {
@@ -1230,10 +1385,13 @@
     padding-right: 20px;
   }
 }
-.trending-products__container .container-heading {
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  margin-top: 5%;
+.trending-products__container .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 @media screen and (max-width: 767px) {
   .trending-products__container .container-heading {
@@ -1333,10 +1491,17 @@
 .services {
   padding-left: 30px;
   padding-right: 30px;
-  padding-top: 80px;
 }
-.services__container .container-heading {
-  margin-bottom: 30px;
+.services__container {
+  margin-top: 105px;
+}
+.services__container .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .services__container .services-main {
   display: grid;

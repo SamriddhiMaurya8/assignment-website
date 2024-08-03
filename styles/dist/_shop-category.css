@@ -1,10 +1,17 @@
-.shop-category-area__conatiner {
-  padding: 20px;
+.shop-category-area {
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.shop-category-area__conatiner .container-heading {
-  text-transform: capitalize;
-  margin-bottom: 20px;
-  margin-top: 5%;
+.shop-category-area__conatiner {
+  margin-top: 105px;
+}
+.shop-category-area__conatiner .container-heading h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Eina02, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
 }
 .shop-category-area__conatiner .container-category {
   display: grid;
