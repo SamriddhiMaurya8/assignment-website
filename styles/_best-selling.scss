@@ -1,0 +1,148 @@
+
+// best-seeling 
+.best-selling{
+    padding-bottom: 70px;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;
+    
+  
+    @media screen and (max-width: 767px) {
+  
+          padding-bottom: 30px;
+      
+  }
+  
+  &__container{
+    // width: 100%;
+   
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    // padding-left: 40px;
+    // padding-right: 40px;
+    overflow: hidden;
+  
+    @media screen and (max-width:430px) {
+      padding-left: 34px;
+    }
+    .container-heading{
+      h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Eina02 ,  sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 100%;
+      }
+    
+    }
+    .best-selling-items{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; 
+      grid-auto-columns: 1fr;
+      grid-column-gap: 23px;
+      grid-row-gap: 16px;
+      grid-template-rows: auto;
+  
+  
+    
+    @media screen and (max-width: 991px) {
+       
+            grid-template-columns: 1fr 1fr;
+        
+    }
+    @media screen and (max-width: 479px) {
+  
+          grid-template-columns: 1fr ;
+         
+      
+  }
+      
+  
+  
+  
+      .single-item{
+      // flex: none;
+      // justify-content: center;
+      // align-items: center;
+    @media screen and (max-width:479px) {
+      display: inline-block;
+      // padding-left: 4px;
+    }
+      .best-selling-img{
+        border-radius: 10px;
+      overflow: hidden;
+      .best-img{
+        border-radius: 10px;
+      }
+      .best-img:hover{
+        transform: scale(1.1);
+      }
+      }
+      .best-selling-content{
+      margin-top: -29px;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
+  
+      .circle-img{
+        margin-bottom: 10px;
+        img{
+          // max-width: 100%;
+          vertical-align: middle;
+      display: inline-block;
+        }
+      }
+      .best-selling-title{
+        color: #231f1e;
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-family: Inter, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      }
+      .category{
+        align-items: center;
+        margin-bottom: 8px;
+        display: flex;
+  
+        .selliing-category{
+          color: #848181;
+          font-size: 12px;
+          font-weight: 500;
+        }
+        .dot{
+          width: 4px;
+          height: 4px;
+          background-color: #848181;
+          border-radius: 100px;
+          margin-left: 4px;
+          margin-right: 4px;
+        }
+      }
+      .best-selling-para{
+        display: flex;
+        align-items: center;
+        .tag{
+          width: 13px;
+          height: 13px;
+        }
+        .para-two{
+          color: #c34482;
+          margin-left: 8px;
+          line-height: 160%;
+        }
+      }
+      }
+  
+  
+  
+      }
+    }
+  }
+  }
+  
+  
+  

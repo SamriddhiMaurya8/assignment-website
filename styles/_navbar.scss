@@ -1,0 +1,341 @@
+
+  
+  .top-navbar {
+    background-color: #003d29;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 36px;
+    padding-left: 40px;
+    padding-right: 40px;
+    // width: 94%;
+    font-family: Inter, sans-serif;
+  
+    @media (max-width: 768px) {
+  
+      flex-wrap: nowrap;
+      height: 7vh;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    &__left {
+      padding-top: 0.7%;
+      display: flex;
+      gap: 8px;
+  
+      p {
+        padding-top: 2px;
+      }
+  
+      @media screen and (max-width: 479px) {
+        margin-left: 20%;
+        margin-top: 2.4%;
+      }
+  
+      @media (max-width:768px) {
+        margin-left: 40%;
+  
+      }
+    }
+  
+    &__mid {
+      //  padding-top: 0.7%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      @media (max-width: 479px) {
+        display: none;
+      }
+  
+    }
+  
+    &__right {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      ul {
+        display: flex;
+        gap: 34px;
+  
+        @media (max-width: 479px) {
+          gap: 50px;
+        }
+  
+        li {
+          a {
+            color: #fff;
+            text-decoration: none;
+  
+            @media (max-width: 479px) {
+              font-size: 12px;
+              ;
+            }
+          }
+  
+          list-style: none;
+        }
+      }
+  
+      @media (max-width: 479px) {
+        margin-bottom: 4%;
+      }
+    }
+  }
+  
+  // .right {
+  //     display: flex;
+  //     padding-right: 40px;
+  //     gap: 16%;
+  // }
+  
+  // .navbar2 {
+  //   padding-right: 30px;
+  //   padding-left: 30px;
+  //   height: 82px;
+  
+  //   display: flex;
+  
+  
+  //   .img {
+  //     img {
+  //       padding-top: 19px;
+  //       width: 175px;
+  //       height: 44px;
+  //     }
+  //   }
+  
+  //   &__list {
+  //     display: flex;
+  //     margin-bottom: 80px;
+  
+  //     ul {
+  //       // padding-left: 15px;
+  //       padding-top: 35px;
+  //       display: flex;
+  //       list-style: none;
+  //       // gap: 8px;
+  //       align-items: center;
+  //       // justify-content: space-between;
+  //       // margin-bottom: 0;
+  
+  //       li {
+  //         // padding-right: 15px;
+  //         padding-top: 15px;
+  //         list-style-type: none;
+  //         letter-spacing: 0.25px;
+  
+  //         a {
+  //           padding-left: 18px;
+  //           text-decoration: none;
+  //           color: #333;
+  //           font-size: 16px;
+  //           font-weight: 500;
+  //           color: #333;
+  //           //    padding: 5px 10px;
+  //           line-height: 20px;
+  //           //    margin-right: 5px;
+  //           //    margin-left: 5px;
+  //         }
+  //       }
+  //     }
+  //   }
+  
+  //   &__search-bar {
+  //     // padding-left: 70px;
+  //     margin-left: 10%;
+  
+  //     input {
+  //       padding-left: 50px;
+  //       width: 280px;
+  //       margin-top: 21px;
+  //       height: 40px;
+  //       max-width: 320px;
+  //       background-color: #f6f7f8;
+  //       border-radius: 100px;
+  //       margin-bottom: 0;
+  //       // position: relative;
+  //     }
+  //   }
+  
+  //   &__right-side {
+  //     // padding-right: 40px;
+  //     margin-left: 30px;
+  //     display: flex;
+  //     gap: 30px;
+  //     margin-top: 34px;
+  
+  //     .account {
+  //       display: flex;
+  //       gap: 16px;
+  //     }
+  
+  //     .cart {
+  //       display: flex;
+  //       gap: 16px;
+  //     }
+  //   }
+  // }
+  
+  
+  
+  
+  
+  .navbar2 {
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative; //change-1
+  }
+  
+  .navbar2 .img img {
+    // padding-top: 19px;
+    width: 175px;
+    height: 44px;
+  }
+  
+  .navbar2__list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    // gap: 80px; //change 2
+  }
+  
+  .navbar2__list ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    // gap: 34px;
+    align-items: center;
+    margin-bottom: 17px;
+  }
+  
+  .navbar2__list li {
+    padding-top: 15px;
+    list-style-type: none;
+    letter-spacing: 0.25px;
+   margin-right: 6px;
+  }
+  
+  .navbar2__list a {
+    padding-left: 18px;
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+  
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  .navbar2__search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: 82px; 
+  }
+  
+  .navbar2__search-bar input {
+    padding-left: 50px;
+    width: 290px;
+    height: 40px;
+    max-width: 320px;
+    background-color: #f6f7f8;
+    border-radius: 100px;
+    border:1px solid #231f1e;
+    margin: 0;
+    // margin-right: 7px;
+  }
+  
+  .navbar2__right-side {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+  }
+  
+  .navbar2__right-side .account,
+  .navbar2__right-side .cart {
+    display: flex;
+    gap: 7px;
+  }
+  .hamburger {
+    display: none; /* Hide by default */
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 991px) {
+    .navbar2 {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .navbar2__list {
+      display: none;
+    }
+  
+    .navbar2__search-bar {
+      display: none; 
+    }
+  
+    .navbar2__center {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      justify-content: center; 
+    }
+  
+    .navbar2__right-side {
+      display: flex;
+      gap: 16px; 
+      align-items: center;
+    }
+  
+    .hamburger {
+      display: block; 
+      margin-left: 75px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .navbar2__list,
+    .navbar2__right-side {
+      display: none; 
+    }
+    .hamburger {
+      display: block;
+  
+    }
+  
+    .navbar2.active .navbar2__list,
+    .navbar2.active .navbar2__right-side {
+      display: flex; 
+      flex-direction: column;
+      position: absolute;
+      top: 82px;
+      left: 0;
+      right: 0;
+      background-color: white; 
+      padding: 20px;
+      gap: 20px; 
+    }
+  
+    .navbar2__search-bar {
+      margin-left: 0; 
+      width: 100%; 
+    }
+  }
+  

@@ -106,7 +106,7 @@
 }
 @media (max-width: 631px) {
   .image-container__main-image .banner-title:nth-of-type(3) {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 42px;
     top: 50%;
   }
@@ -134,7 +134,7 @@
 }
 @media (max-width: 631px) {
   .image-container__main-image .banner-title:nth-of-type(4) {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 42px;
     top: 60%;
   }
