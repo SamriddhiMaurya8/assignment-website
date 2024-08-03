@@ -1292,11 +1292,22 @@
   display: block;
 }
 .discount-banner__container {
-  width: 100%;
   max-width: 1360px;
   padding-left: 30px;
   padding-bottom: 40px;
   padding-right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .discount-banner__container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .discount-banner__container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 .discount-banner__container .container-1 {
   text-align: left;
@@ -1304,17 +1315,43 @@
   justify-content: space-between;
   display: flex;
 }
+@media screen and (max-width: 767px) {
+  .discount-banner__container .container-1 {
+    display: block;
+  }
+}
+@media screen and (max-width: 991px) {
+  .discount-banner__container .container-1 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .discount-banner__container .container-1 {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}
 .discount-banner__container .container-1 .inner-content .title {
   max-width: 381px;
   margin-top: 0;
   font-family: Inter, sans-serif;
-  font-size: 22px;
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: Eina02, sans-serif;
-  font-size: 52px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 120%;
+}
+@media screen and (max-width: 767px) {
+  .discount-banner__container .container-1 .inner-content .title {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 779px) {
+  .discount-banner__container .container-1 .inner-content .title {
+    font-size: 26px;
+  }
 }
 .discount-banner__container .container-1 .inner-content .para {
   max-width: 385px;
@@ -1324,6 +1361,11 @@
   font-family: Inter, sans-serif;
   font-size: 20px;
   line-height: 145%;
+}
+@media screen and (max-width: 479px) {
+  .discount-banner__container .container-1 .inner-content .para {
+    margin-bottom: 20px;
+  }
 }
 .discount-banner__container .container-1 .inner-content .learn-more-btn {
   position: absolute;
@@ -1343,6 +1385,11 @@
   z-index: 0;
   margin-top: 40px;
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .discount-banner__container .right-side {
+    display: none;
+  }
 }
 .discount-banner__container .right-side .card-one {
   z-index: 2;
